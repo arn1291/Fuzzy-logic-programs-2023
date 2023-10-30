@@ -1,0 +1,6 @@
+n1=int(input())
+set1=set(map(int,input().split()))
+n2=int(input())
+set2=set(map(int,input().split()))
+print('UNION:',set1.union(set2))
+print('INTERSECTION',set1.intersection(set2))
